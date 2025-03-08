@@ -1,4 +1,4 @@
 title: "Mi Sitio de Notebooks"
 description: "Colección de notebooks convertidos a HTML"
-theme: jekyll-theme-hacker  # O usa otro tema como minimal, hacker, slate
+theme: jekyll-theme-cayman  # O usa otro tema como minimal, hacker, slate
 
