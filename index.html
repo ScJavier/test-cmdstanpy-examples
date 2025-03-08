@@ -1,15 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Sitio en GitHub Pages </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio - Retro Futurista</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background-color: #0a0a0a;
+            color: #00ffcc;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px #00ffcc, 0 0 30px #0099cc;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ff00ff;
+            font-size: 1.5em;
+            padding: 10px 20px;
+            border: 2px solid #ff00ff;
+            border-radius: 10px;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff0099;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover {
+            background-color: #ff00ff;
+            color: #0a0a0a;
+            text-shadow: none;
+            box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff0099;
+        }
+
+        .neon-border {
+            border: 3px solid #00ffcc;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #00ffcc, 0 0 40px #0099cc;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <p>Visita mis notebooks:</p>
+    <div class="neon-border">
+        <h1>Bienvenido a Mi Sitio</h1>
+        <p>Explora mis notebooks con modelos estadísticos:</p>
+    </div>
+
     <ul>
-        <li><a href="poisson_gamma.html"> Modelo Poisson-Gamma </a></li>
-        <li><a href="normal_gamma.html"> Modelo Normal-Gamma </a></li>
-        <li><a href="bivariate_normal.html"> Modelo Normal-bivariado </a></li>
+        <li><a href="poisson_gamma.html">Modelo Poisson-Gamma</a></li>
+        <li><a href="normal_gamma.html">Modelo Normal-Gamma</a></li>
+        <li><a href="bivariate_normal.html">Modelo Normal-Bivariado</a></li>
     </ul>
 </body>
 </html>
